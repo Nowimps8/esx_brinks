@@ -1,0 +1,16 @@
+Locales['en'] = {
+  ['GPS_info'] = 'Central indicated an ATM that needs Servicing on your ~y~ GPS',
+  ['cancel_mission'] = 'You ~r~canceled~w~ the mission',
+  ['pickup'] = 'Use ~INPUT_VEH_SUB_PITCH_DOWN_ONLY~ To service this ATM',
+  ['end_service'] = 'Go Off-Duty',
+  ['take_service'] = 'Go On-Duty',
+  ['end_service_notif'] = 'You are now ~r~Off-Duty',
+  ['take_service_notif'] = 'You are now ~g~On-Duty',
+  ['start_job'] = 'Use the ~INPUT_CELLPHONE_OPTION~ to start your ~b~ route',
+  ['Vehicle_Menu_Title'] = 'Work vehicle',
+  ['in_vehicle'] = '~r~Get out of your vehicle !',
+  ['vehicle_broken'] = '~r~Will repair the vehicle before !',
+  ['bad_vehicle'] = 'You can only use ~b~ work vehicles',
+  ['not_good_veh'] = '~r~You must be in your work vehicle',
+  ['stop_npc'] = 'Action ~r~impossible~s~ : See you at the depository',
+}
