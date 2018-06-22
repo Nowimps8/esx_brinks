@@ -3,7 +3,7 @@ Config.DrawDistance               = 100.0
 Config.nameJob                    = "brinks"
 Config.nameJobLabel               = "brinks"
 Config.platePrefix                = "BRIN"
-Config.Locale                     = 'fr'
+Config.Locale                     = 'en'
 
 Config.Blip = {
     Sprite = 67,
@@ -13,7 +13,7 @@ Config.Blip = {
 Config.Vehicles = {
 	Truck = {
 		Spawner = 1,
-		Label = 'Camion',
+		Label = 'Armored Car',
 		Hash = "stockade",
 		Livery = 0,
 		Trailer = "none",
@@ -29,8 +29,8 @@ Config.Zones = {
     Type    = 27,
 	BlipSprite = 67,
 	BlipColor = 52,
-	BlipName = Config.nameJobLabel.." : Vestiaire",
-	hint = 'Appuyez sur ~INPUT_CONTEXT~ pour accéder au vestiaire',
+	BlipName = Config.nameJobLabel.." : Cloakroom",
+	hint = 'Press ~INPUT_CONTEXT~ to access the cloakroom',
   },
 
   VehicleSpawner = {
@@ -40,8 +40,8 @@ Config.Zones = {
 	Type  = 27,
 	BlipSprite = 67,
 	BlipColor = 52,
-	BlipName = Config.nameJobLabel.." : Véhicule",
-	hint = 'Appuyez sur ~INPUT_CONTEXT~ pour accéder au garage',
+	BlipName = Config.nameJobLabel.." : Vehicle",
+	hint = 'Press ~INPUT_CONTEXT~ to access the garage',
   },
 
   VehicleSpawnPoint = {
@@ -58,8 +58,8 @@ Config.Zones = {
 	Type  = 27,
 	BlipSprite = 67,
 	BlipColor = 52,
-	BlipName = Config.nameJobLabel.." : Retour Véhicule",
-	hint = 'Appuyez sur ~INPUT_CONTEXT~ pour ranger le véhicule',
+	BlipName = Config.nameJobLabel.." : Return Vehicle",
+	hint = 'Press ~INPUT_CONTEXT~ to store the vehicle',
   },
 
   Vente = {
@@ -69,19 +69,19 @@ Config.Zones = {
 	Type  = 1,
 	BlipSprite = 67,
 	BlipColor = 52,
-	BlipName = Config.nameJobLabel.." : Dépôt",
+	BlipName = Config.nameJobLabel.." : Deposit",
 
 	ItemTime = 500,
 	ItemDb_name = "sacbillets",
-	ItemName = "Sac de Billets",
+	ItemName = "Banknotes",
 	ItemMax = 100,
 	ItemAdd = 1,
 	ItemRemove = 1,
 	ItemRequires = "sacbillets",
-	ItemRequires_name = "Sac de Billets",
+	ItemRequires_name = "Banknotes",
 	ItemDrop = 100,
 	ItemPrice  = 100,
-	hint = 'Appuyez sur ~INPUT_CONTEXT~ pour décharger les billets',
+	hint = 'Press ~INPUT_CONTEXT~ to unload the banknotes',
   },
 
 }
