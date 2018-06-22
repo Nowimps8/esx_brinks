@@ -126,7 +126,8 @@ ESX.UI.Menu.CloseAll()
 ESX.UI.Menu.Open(
   'default', GetCurrentResourceName(), 'cloakroom',
   {
-    title = 'Vestiaire',
+    --title = 'Vestiaire',
+    title = 'Cloakroom', 
     align = 'top-left',
     elements = elements
   },
@@ -225,7 +226,8 @@ function(data, menu)
       SetVehicleNumberPlateText(vehicle, platePrefix .. platenum)
       plate = GetVehicleNumberPlateText(vehicle)
       plate = string.gsub(plate, " ", "")
-      name = 'Véhicule de '..platePrefix
+      --name = 'Véhicule de '..platePrefix
+      name = 'Vehicle of '..platePrefix
       TriggerServerEvent('esx_vehiclelock:registerkeyjob', name, plate, 'no')
     end)
     break
